@@ -1,0 +1,21 @@
+.portfolio-container{
+
+    display: flex;
+    flex-direction: column;
+    height: 82%;
+    width: 100%;
+}
+
+
+.imgPortfo{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+    height: 50%;
+    width: 100%;
+}
+.imgs{
+    margin-top: 27px;
+    max-width: 500px;
+}

@@ -1,0 +1,79 @@
+.navbar-container{
+    display: flex;
+    height: 8%;
+    width: 100%;
+    
+    background-color: rgb(203, 210, 214);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+
+.portNavVis{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    border: none;
+    background: none;
+    font-size:  25px;
+    color: rgb(109, 101, 94);
+    margin-right: 30px;
+    cursor: pointer;
+    
+    transition: 1s;
+}
+
+.portNavVis:hover{
+
+    transition: 0.5s;
+    
+    color: rgb(20, 16, 13);
+}
+
+
+.AboutNavVis{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    background: none;
+    font-weight: 300;
+    font-size:  25px;
+    color: rgb(109, 101, 94);
+    cursor: pointer;
+    
+    transition: 1s;
+}
+
+.AboutNavVis:hover{
+
+    transition: 0.5s;
+    
+    color: rgb(20, 16, 13);
+}
+.GalleryNavVis{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    background: none;
+    font-weight: 300;
+    font-size:  25px;
+    color: rgb(109, 101, 94);
+    
+    margin-left: 30px;
+    cursor: pointer;
+    
+    transition: 1s;
+}
+
+.GalleryNavVis:hover{
+
+    transition: 0.5s;
+    
+    color: rgb(20, 16, 13);
+}
+
+.buttonPortNavVis{
+
+    background: none;
+    color: none;
+    border: none;
+}

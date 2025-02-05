@@ -1,0 +1,53 @@
+.slider-container {
+    display: flex;
+    flex-direction: row;
+    height: 82%;
+    width: 100%;
+    margin: 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    height: 89%;
+    width: 100%;
+    position: relative; /* Ensures buttons are properly positioned relative to this container */
+}
+
+.imgPort {
+    
+    border-radius: 4px;
+    max-width: 50%;
+}
+
+.buttonSlideA, .buttonSlideD {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(161, 146, 146, 0.8); /* Added opacity to the buttons */
+    border-radius: 90px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+/* Left button positioning */
+.buttonSlideA {
+    margin-top: 220px;
+    margin-right: 340px;
+}
+
+/* Right button positioning */
+.buttonSlideD {
+    margin-top: 220px;
+    margin-left: 340px;
+}
+
+/* Hover effect for both buttons */
+.buttonSlideA:hover, .buttonSlideD:hover {
+    background-color: rgba(161, 146, 146, 1); /* Remove opacity on hover */
+    transform: scale(1.1); /* Slightly enlarge the button */
+}
